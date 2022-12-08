@@ -68,14 +68,17 @@ body {
   padding: 20px 25px; 
   background: white;
   transform: rotate(120px 50%);
-  border-radius: 40%;
+  border-radius: 20%;
 }
 .nav.nav-second .nav-item:hover {
   background: linear-gradient(45deg, white, rgb(182, 182, 182));
 }
 .nav.nav-second .nav-item.active {
-  background: linear-gradient(45deg, rgb(25, 11, 8), rgb(41, 171, 188));
+  background-image: url(Google-Messages-980x653.jpg);
   box-shadow: 1px 1px 10px;
+  background-size: 120px;
+  box-shadow: 1px 1px 10px;
+  color: rgb(2, 2, 38);
 }
 .nav.nav-second .nav-item .nav-link {
   transform: skewX(20deg);
@@ -99,13 +102,15 @@ body {
   transform: rotate(-0.02turn);
   border-radius: 40%;
   
+  
 }
 .nav.nav-third .nav-item:hover {
   background: linear-gradient(45deg, white, rgb(182, 182, 182));
 }
 .nav.nav-third .nav-item.active {
-  background-image: linear-gradient(45deg, rgb(25, 11, 8), rgb(41, 171, 188));
-  box-shadow: 1px 1px 10px;
+  background-image: url(616616.png);
+  background-size: 100px;
+
 }
 .nav.nav-third .nav-item .nav-link {
   transform: skewX(20deg);
@@ -115,5 +120,39 @@ body {
   text-decoration: none;
 }
 .nav.nav-third .nav-item.active .nav-link {
-  color: white;
+  color: rgb(172, 20, 20);
+}
+
+.nav.nav-fourth .nav-item {
+  border-radius: 0;
+  color: rgb(58, 42, 223);
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.471);
+  padding: 20px 25px; 
+  background: -moz-linear-gradient(50% white black);
+  transform: rotate(-0.02turn);
+  border-radius: 40%;
+  
+  
+}
+.nav.nav-fourth .nav-item:hover {
+  background: linear-gradient(45deg, white, rgb(182, 182, 182));
+}
+.nav.nav-fourth .nav-item.active {
+  background-image: url(616616.png);
+  background-size: 100px;
+
+}
+.nav.nav-fourth .nav-item .nav-link {
+  transform: skewX(20deg);
+  background: none;
+  padding: 0;
+  color: rgb(31, 18, 16);
+  text-decoration: none;
+}
+.nav.nav-fourth .nav-item.active .nav-link {
+  color: rgb(172, 20, 20);
+
 }
